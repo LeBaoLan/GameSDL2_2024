@@ -549,7 +549,7 @@ int main(int argc, char* argv[]){
             {
                 Mix_VolumeMusic(32);
                 Mix_PlayMusic(g_background_music[2], 0);
-                gameState = SDLCommonFunc::showVictory(g_screen, victory_font, "victory", mark_value+(std::max((300-int(time_val))*20, 0)));
+                gameState = SDLCommonFunc::showVictory(g_screen, victory_font, "victory", mark_value+(std::max((600-int(time_val))*5, 0)));
             }
             break;
             case loseScreen:
@@ -569,21 +569,3 @@ int main(int argc, char* argv[]){
     close();
     return 0;
 }
-//To do list:
-// add frog attack animation
-// if possible add save progress
-// if possible add sound modification
-// if possible add pumpkin attack
-
-//New stuff:
-// mini map
-// big boss
-// key puzzle image effect
-
-// add theme music // done
-// add comebacktime // done
-// add health bar and enemy health // done
-// add pause menu // done
-// add victory screen // done
-// save score // done
-// return to menu when loss or win // done
