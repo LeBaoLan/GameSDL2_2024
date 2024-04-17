@@ -622,7 +622,7 @@ int SDLCommonFunc::showVictory(SDL_Renderer* des, TTF_Font* font, std::string na
         mark_game.setColorType(textObject::BLACK);
         mark_game.setText(strMark);
         mark_game.loadFromRenderText(font, des);
-        mark_game.renderText(des, 60, 500);
+        mark_game.renderText(des, 50, 500);
 
         std::string val_highScore = std::to_string(hScore);
         std::string highScore("High Score: ");
