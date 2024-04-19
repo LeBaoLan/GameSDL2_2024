@@ -6,3 +6,4 @@ Game này được em lên ý tưởng, kế hoạch, xây dựng từ những n
 2. Cơ chế đánh nhau dựa vào con chuột, yêu cầu người chơi phải có chút kĩ năng để đánh bại game.
 3. Game dễ hiểu dễ làm quen có hướng dẫn, có thể tạm dừng khi chơi.
 4. Cần chút chiến thuật để kẻ địch không thể áp đảo mình.
+Để chạy game, hoặc bấm vào file main.exe hoặc mở folder trong VSCode và dùng nút f5 (file extension nút f5 đã có trong các file)
