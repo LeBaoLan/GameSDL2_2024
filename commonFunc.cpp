@@ -582,7 +582,7 @@ int SDLCommonFunc::showVictory(SDL_Renderer* des, TTF_Font* font, std::string na
     const int kMenuItemNum = 2;
     SDL_Rect pos_arr[kMenuItemNum];
     // play again
-    pos_arr[0].x = 140;
+    pos_arr[0].x = 180;
     pos_arr[0].y = 595;
     pos_arr[0].w = 410;
     pos_arr[0].h = 90;//can be change but screw it
